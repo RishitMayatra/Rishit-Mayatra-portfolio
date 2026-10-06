@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+  <rect width="1000" height="700" fill="#fcfcf7"/>
+  <!-- Left geometric wireframe -->
+  <g stroke="#1d5b96" stroke-width="1.6" fill="none">
+    <polygon points="0,10 65,0 110,45 50,70"/>
+    <polygon points="65,0 110,45 95,0"/>
+    <polygon points="0,10 50,70 0,95"/>
+    <polygon points="50,70 110,45 125,95 65,145"/>
+    <polygon points="0,95 50,70 65,145 0,155"/>
+    <polygon points="65,145 125,95 110,165"/>
+    <polygon points="0,155 65,145 55,205 0,190"/>
+    <polygon points="0,245 85,220 190,285 135,365 55,345"/>
+    <polygon points="85,220 135,365 55,345"/>
+    <polygon points="0,245 55,345 0,385"/>
+    <polygon points="55,345 135,365 150,455 75,415"/>
+    <polygon points="135,365 190,285 160,445 150,455"/>
+    <polygon points="0,385 75,415 55,495 0,480"/>
+    <polygon points="75,415 150,455 65,495"/>
+    <polygon points="0,530 90,615 0,655"/>
+  </g>
+
+  <!-- Top Center Apna College Logo -->
+  <text x="500" y="42" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="800" fill="#f59e0b">APNA</text>
+  <text x="500" y="68" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="800" fill="#0f4c81">COLLEGE</text>
+
+  <!-- Right Ribbon & Seal -->
+  <rect x="880" y="0" width="44" height="230" fill="#e88b23"/>
+  <polygon points="880,250 865,295 895,295 902,250" fill="#e88b23"/>
+  <polygon points="924,250 939,295 909,295 902,250" fill="#e88b23"/>
+  <circle cx="902" cy="210" r="42" fill="#ece4d0" stroke="#c8b998" stroke-width="2"/>
+  <circle cx="902" cy="210" r="34" fill="none" stroke="#1d5b96" stroke-width="1.5"/>
+
+  <!-- Java Logo on Right -->
+  <path d="M905,360 C915,375 890,385 900,400 C910,388 925,378 912,360 Z" fill="#e76f00"/>
+  <path d="M920,372 C928,382 910,392 916,403 C924,394 934,384 920,372 Z" fill="#e76f00"/>
+  <path d="M882,412 Q906,422 930,412" fill="none" stroke="#5382a1" stroke-width="4"/>
+  <path d="M886,424 Q906,434 926,424" fill="none" stroke="#5382a1" stroke-width="4"/>
+  <path d="M876,438 Q906,450 938,438" fill="none" stroke="#5382a1" stroke-width="4"/>
+  <text x="907" y="488" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#e76f00">Java</text>
+  <rect x="880" y="555" width="44" height="145" fill="#e88b23"/>
+
+  <!-- Center Certificate Text -->
+  <text x="505" y="195" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="4" fill="#0f4c81">CERTIFICATE</text>
+  <text x="502" y="390" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="28" fill="#111111">Rishit Mayatra</text>
+  <line x1="325" y1="412" x2="675" y2="412" stroke="#0f4c81" stroke-width="2.5"/>
+
+  <text x="500" y="446" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#5a768e">For successfully completing the 30 hours</text>
+  <text x="500" y="472" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#5a768e">course of Alpha (DSA with Java).</text>
+
+  <!-- Bottom Left Illustration -->
+  <g transform="translate(80, 510)">
+    <path d="M100,190 L130,95 L235,95 L245,170 L185,190 Z" fill="#f5a623" stroke="#222" stroke-width="1.5"/>
+    <circle cx="160" cy="55" r="24" fill="#f7f5f0" stroke="#222" stroke-width="1.5"/>
+    <path d="M140,45 Q160,15 185,45 L188,80 L172,78 L170,52 L142,52 Z" fill="#111111"/>
+    <circle cx="150" cy="55" r="5" fill="none" stroke="#222" stroke-width="1.2"/>
+    <circle cx="164" cy="55" r="5" fill="none" stroke="#222" stroke-width="1.2"/>
+    <polygon points="0,125 110,125 125,190 15,190" fill="#efe6dd" stroke="#222" stroke-width="1.5"/>
+    <circle cx="58" cy="160" r="6" fill="#111111"/>
+  </g>
+
+  <!-- Certificate ID & Co-Founder Signature -->
+  <text x="440" y="680" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#111111">68b7e898e1af061afc0dcf57</text>
+
+  <text x="650" y="598" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="28" fill="#5a768e">Shradha Khapra</text>
+  <line x1="575" y1="614" x2="725" y2="614" stroke="#0f4c81" stroke-width="1.5"/>
+  <text x="650" y="652" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#2b5b84">CO-FOUNDER</text>
+  <text x="650" y="682" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#0f4c81">Shradha Khapra</text>
+</svg>

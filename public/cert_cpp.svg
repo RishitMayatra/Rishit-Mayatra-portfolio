@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+  <rect width="1000" height="700" fill="#ffffff"/>
+  <rect x="8" y="8" width="984" height="684" fill="none" stroke="#0f5257" stroke-width="16"/>
+  <rect x="20" y="20" width="220" height="660" fill="#0f5257"/>
+  <text x="35" y="75" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">GeeksforGeeks</text>
+  <text x="35" y="650" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#ffffff">www.geeksforgeeks.org</text>
+
+  <text x="275" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="46" font-weight="700" fill="#111111">CERTIFICATE</text>
+  <text x="275" y="155" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#646464">OF COURSE COMPLETION</text>
+  <text x="275" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#2ecc71">THIS IS TO CERTIFY THAT</text>
+  <text x="275" y="275" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" fill="#111111">Rishit Mayatra</text>
+  <line x1="270" y1="305" x2="750" y2="305" stroke="#0f5257" stroke-width="14"/>
+
+  <text x="275" y="355" font-family="'Segoe UI', Arial, sans-serif" font-size="21" fill="#222222">has successfully completed a 6-week course on</text>
+  <text x="275" y="385" font-family="'Segoe UI', Arial, sans-serif" font-size="21" fill="#222222">Free C++ Course Online with Certificate [2025].</text>
+
+  <text x="275" y="540" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="700" fill="#2ecc71">Sandeep Jain</text>
+  <text x="275" y="580" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#111111">Mr. Sandeep Jain</text>
+  <text x="275" y="605" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#646464">Founder &amp; CEO, GeeksforGeeks</text>
+</svg>

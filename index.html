@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishit Mayatra | Portfolio - B.Tech CSE Student</title>
+    <meta name="description" content="Portfolio of Rishit Mayatra - 5th Semester B.Tech CSE student at Indus University. Skillful in C, HTML, Python, Java, and SQL.">
+    <meta property="og:title" content="Rishit Mayatra | Portfolio - B.Tech CSE Student">
+    <meta property="og:description" content="Portfolio of Rishit Mayatra - 5th Semester B.Tech CSE student at Indus University. Skillful in C, HTML, Python, Java, and SQL.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Google Fonts: Josefin Sans (Headings) & Karla (Body text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Karla:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Custom CSS (#780206 to #061161 Gradient) -->
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation with Smooth Auto-Closing Dropdown Menu -->
+    <nav class="navbar navbar-expand-lg fixed-top glass-nav" id="mainNav">
+        <div class="container d-flex align-items-center justify-content-between">
+            <!-- Brand Logo -->
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#hero">
+                <span class="brand-badge">RM</span>
+                <span class="brand-text">Rishit Mayatra</span>
+            </a>
+            
+            <div class="d-flex align-items-center gap-3">
+                <!-- Dropdown Menu for Navigation Options -->
+                <div class="dropdown">
+                    <button class="btn nav-dropdown-toggle dropdown-toggle" type="button" id="navDropdownMenuBtn" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                        <i class="fa-solid fa-compass me-2"></i> Menu
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end nav-dropdown-menu" aria-labelledby="navDropdownMenuBtn" id="navDropdownList">
+                        <li><a class="dropdown-item nav-dropdown-item" href="#hero"><i class="fa-solid fa-house text-info"></i> Home</a></li>
+                        <li><a class="dropdown-item nav-dropdown-item" href="#about"><i class="fa-solid fa-user-graduate text-info"></i> About Me</a></li>
+                        <li><a class="dropdown-item nav-dropdown-item" href="#skills"><i class="fa-solid fa-code text-info"></i> Technical Skills</a></li>
+                        <li><a class="dropdown-item nav-dropdown-item" href="#projects"><i class="fa-solid fa-briefcase text-info"></i> Projects Showcase</a></li>
+                        <li><a class="dropdown-item nav-dropdown-item" href="#certificates"><i class="fa-solid fa-award text-info"></i> Certifications</a></li>
+                        <li><a class="dropdown-item nav-dropdown-item" href="#contact"><i class="fa-solid fa-paper-plane text-info"></i> Contact Me</a></li>
+                    </ul>
+                </div>
+
+                <!-- Theme Toggle Button -->
+                <button class="btn btn-outline-theme btn-sm rounded-pill px-3" id="themeToggleBtn" title="Toggle Light/Dark Theme">
+                    <i class="fa-solid fa-sun me-1"></i> Mode
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section min-vh-100 d-flex align-items-center relative-container">
+        <div class="glow-sphere sphere-1"></div>
+        <div class="glow-sphere sphere-2"></div>
+        
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-7">
+                    <div class="hero-badge mb-4">
+                        <i class="fa-solid fa-graduation-cap me-2"></i>
+                        <span>5th Semester &bull; B.Tech CSE Student</span>
+                    </div>
+                    <h1 class="display-3 fw-bold hero-title mb-3">
+                        Hi, I'm <span class="gradient-text">Rishit Mayatra</span>
+                    </h1>
+                    <h2 class="h4 text-light mb-4 fw-normal">
+                        Computer Science &amp; Engineering Student at <strong class="text-info">Indus University</strong>
+                    </h2>
+                    <p class="lead text-secondary mb-4 bio-text">
+                        Passionate undergrad developer specializing in software engineering, object-oriented design in <strong>Java &amp; C/C++</strong>, database management with <strong>SQL</strong>, scripting with <strong>Python</strong>, and live <strong>HTML/JS</strong> web applications.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+                        <a href="#projects" class="btn btn-gradient btn-lg rounded-pill px-4">
+                            <i class="fa-solid fa-briefcase me-2"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-glass btn-lg rounded-pill px-4">
+                            <i class="fa-solid fa-envelope me-2"></i> Get In Touch
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Specs -->
+                    <div class="row g-3 mt-3">
+                        <div class="col-6 col-sm-4">
+                            <div class="stat-card">
+                                <div class="stat-num text-info">Indus Uni</div>
+                                <div class="stat-label">University</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <div class="stat-card">
+                                <div class="stat-num text-light">B.Tech CSE</div>
+                                <div class="stat-label">Degree</div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <div class="stat-card">
+                                <div class="stat-num text-warning">Sem 5</div>
+                                <div class="stat-label">Current Progress</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-5 text-center">
+                    <div class="avatar-card p-4 rounded-4 text-center mx-auto">
+                        <div class="avatar-glow mb-3 mx-auto">
+                            <div class="avatar-inner">
+                                <span class="avatar-initials">RM</span>
+                            </div>
+                        </div>
+                        <h4 class="mb-1 text-white fw-bold">Rishit Mayatra</h4>
+                        <p class="text-info small mb-3"><i class="fa-solid fa-location-dot me-1"></i> Indus University, CSE Dept.</p>
+                        
+                        <div class="d-flex justify-content-center flex-wrap gap-2 mb-3">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle rounded-pill">C</span>
+                            <span class="badge bg-info-subtle text-info border border-info-subtle rounded-pill">HTML</span>
+                            <span class="badge bg-warning-subtle text-warning border border-warning-subtle rounded-pill">Python</span>
+                            <span class="badge bg-danger-subtle text-danger border border-danger-subtle rounded-pill">Java</span>
+                            <span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill">SQL</span>
+                        </div>
+                        
+                        <div class="contact-pill mt-3 p-2 bg-dark rounded-3 border border-secondary border-opacity-25 small">
+                            <i class="fa-solid fa-paper-plane me-1 text-info"></i> 
+                            <a href="mailto:rishitmayatra.24.cse@iite.indusuni.ac.in" class="text-secondary text-decoration-none word-break">rishitmayatra.24.cse@iite.indusuni.ac.in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 relative-container">
+        <div class="container py-4">
+            <div class="section-header text-center mb-5">
+                <span class="badge bg-info-subtle text-info rounded-pill px-3 py-2 uppercase mb-2">Academic Profile</span>
+                <h2 class="display-5 fw-bold text-white">About Me</h2>
+                <p class="text-secondary col-lg-6 mx-auto">Background details, university education, and technical trajectory.</p>
+            </div>
+            
+            <div class="row g-4 align-items-stretch">
+                <!-- Academic Info Card -->
+                <div class="col-lg-6">
+                    <div class="card glass-card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="icon-box bg-info-subtle text-info rounded-3 p-3 me-3">
+                                <i class="fa-solid fa-university fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="h4 mb-0 fw-bold text-white">Academic Status</h3>
+                                <span class="text-info">Indus University</span>
+                            </div>
+                        </div>
+                        
+                        <ul class="list-unstyled d-flex flex-column gap-3 mb-0">
+                            <li class="d-flex justify-content-between align-items-center pb-2 border-bottom border-secondary border-opacity-25">
+                                <span class="text-secondary"><i class="fa-solid fa-user me-2 text-info"></i> Full Name</span>
+                                <strong class="text-white">Rishit Mayatra</strong>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pb-2 border-bottom border-secondary border-opacity-25">
+                                <span class="text-secondary"><i class="fa-solid fa-school me-2 text-info"></i> Institution</span>
+                                <strong class="text-white">Indus University</strong>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pb-2 border-bottom border-secondary border-opacity-25">
+                                <span class="text-secondary"><i class="fa-solid fa-laptop-code me-2 text-info"></i> Program</span>
+                                <strong class="text-white">B.Tech (Computer Science &amp; Eng.)</strong>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center pb-2 border-bottom border-secondary border-opacity-25">
+                                <span class="text-secondary"><i class="fa-solid fa-layer-group me-2 text-info"></i> Current Semester</span>
+                                <span class="badge bg-info text-dark fw-bold rounded-pill px-3">5th Semester</span>
+                            </li>
+                            <li class="d-flex justify-content-between align-items-center">
+                                <span class="text-secondary"><i class="fa-solid fa-envelope me-2 text-info"></i> Student Email</span>
+                                <a href="mailto:rishitmayatra.24.cse@iite.indusuni.ac.in" class="text-info text-decoration-none small word-break">rishitmayatra.24.cse@iite.indusuni.ac.in</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Professional Bio Card -->
+                <div class="col-lg-6">
+                    <div class="card glass-card h-100 p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="icon-box bg-info-subtle text-info rounded-3 p-3 me-3">
+                                <i class="fa-solid fa-lightbulb fa-2x"></i>
+                            </div>
+                            <div>
+                                <h3 class="h4 mb-0 fw-bold text-white">Biography &amp; Vision</h3>
+                                <span class="text-secondary">Computer Science Undergrad</span>
+                            </div>
+                        </div>
+                        <p class="text-secondary mb-3">
+                            As a 5th-semester B.Tech Computer Science &amp; Engineering student at <strong>Indus University</strong>, I am deeply involved in exploring foundational computer science concepts, object-oriented programming paradigms, and modern web application development.
+                        </p>
+                        <p class="text-secondary mb-3">
+                            My live web projects include <strong>Wanderly (an AI-powered tour package booking website)</strong> and a <strong>Nike Air Jordan E-Commerce platform</strong>, demonstrating practical expertise across web interfaces, AI integration, and user-centered design.
+                        </p>
+                        <div class="p-3 bg-dark-subtle border border-info border-opacity-25 rounded-3 mt-auto">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-circle-check text-info me-2 fs-5"></i>
+                                <span class="small text-white-50">Focused on expanding expertise in web architecture, AI integration, and Data Structures.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-dark-subtle relative-container">
+        <div class="container py-4">
+            <div class="section-header text-center mb-5">
+                <span class="badge bg-info-subtle text-info rounded-pill px-3 py-2 uppercase mb-2">Technical Proficiency</span>
+                <h2 class="display-5 fw-bold text-white">Core Programming Skills</h2>
+                <p class="text-secondary col-lg-6 mx-auto">Technologies and languages practiced across coursework and independent live projects.</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Skill Card 1: C -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 rounded-4">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="skill-icon bg-info-subtle text-info">
+                                    <i class="fa-solid fa-c"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h5 mb-0 fw-bold text-white">C / C++ Language</h4>
+                                    <span class="small text-muted">Core Programming</span>
+                                </div>
+                            </div>
+                            <span class="badge bg-info text-dark rounded-pill">Certified</span>
+                        </div>
+                        <p class="small text-secondary mb-3">Pointers, dynamic memory management, structured programming, OOP fundamentals, and algorithms.</p>
+                        <div class="progress custom-progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill Card 2: HTML -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 rounded-4">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="skill-icon bg-info-subtle text-info">
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h5 mb-0 fw-bold text-white">HTML5 / Web</h4>
+                                    <span class="small text-muted">Frontend Design</span>
+                                </div>
+                            </div>
+                            <span class="badge bg-info text-dark rounded-pill">Proficient</span>
+                        </div>
+                        <p class="small text-secondary mb-3">Semantic web markup, responsive Bootstrap frameworks, UI layout structuring, and accessibility.</p>
+                        <div class="progress custom-progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill Card 3: Python -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 rounded-4">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="skill-icon bg-info-subtle text-info">
+                                    <i class="fa-brands fa-python"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h5 mb-0 fw-bold text-white">Python</h4>
+                                    <span class="small text-muted">Scripting &amp; AI Basics</span>
+                                </div>
+                            </div>
+                            <span class="badge bg-info text-dark rounded-pill">Intermediate</span>
+                        </div>
+                        <p class="small text-secondary mb-3">Data structures, automation scripts, modular programming, and foundational AI principles.</p>
+                        <div class="progress custom-progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill Card 4: Java -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 rounded-4">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="skill-icon bg-info-subtle text-info">
+                                    <i class="fa-brands fa-java"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h5 mb-0 fw-bold text-white">Java &amp; DSA</h4>
+                                    <span class="small text-muted">OOP &amp; Data Structures</span>
+                                </div>
+                            </div>
+                            <span class="badge bg-info text-dark rounded-pill">Certified</span>
+                        </div>
+                        <p class="small text-secondary mb-3">Object-oriented programming, data structures &amp; algorithms (DSA), trees, graphs, and application workflows.</p>
+                        <div class="progress custom-progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">88%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Skill Card 5: SQL -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="skill-card p-4 rounded-4">
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="skill-icon bg-info-subtle text-info">
+                                    <i class="fa-solid fa-database"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h5 mb-0 fw-bold text-white">SQL Database</h4>
+                                    <span class="small text-muted">Relational Databases</span>
+                                </div>
+                            </div>
+                            <span class="badge bg-info text-dark rounded-pill">Intermediate</span>
+                        </div>
+                        <p class="small text-secondary mb-3">Relational schema design, complex JOIN queries, data normalization, CRUD operations, and indexing.</p>
+                        <div class="progress custom-progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">82%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Direct Links + Live Demo Option Integrated) -->
+    <section id="projects" class="py-5 relative-container">
+        <div class="container py-4">
+            <div class="section-header text-center mb-5">
+                <span class="badge bg-info-subtle text-info rounded-pill px-3 py-2 uppercase mb-2">Live Deployed Work</span>
+                <h2 class="display-5 fw-bold text-white">Featured Live Projects</h2>
+                <p class="text-secondary col-lg-6 mx-auto">Explore live deployed web applications featuring interactive Live Demo previews and direct site launches.</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Project 1: Wanderly AI Tour Package Booking Website -->
+                <div class="col-lg-6">
+                    <div class="card glass-card project-card h-100 overflow-hidden">
+                        <div class="project-img-wrapper position-relative bg-dark d-flex align-items-center justify-content-center p-4">
+                            <div class="project-placeholder-visual text-center p-4">
+                                <i class="fa-solid fa-compass-drafting fa-4x text-info mb-3"></i>
+                                <h4 class="text-white fw-bold">Wanderly AI Travel Assistant</h4>
+                                <span class="badge bg-info-subtle text-info border border-info-subtle">Tour Package Booking &amp; AI Guide</span>
+                            </div>
+                            <div class="project-overlay d-flex align-items-center justify-content-center gap-2 flex-wrap p-3">
+                                <button type="button" onclick="openLiveDemoModal('Wanderly - AI Tour Booking & Guide', 'https://wanderly-seven-gamma.vercel.app/#assistant')" class="btn btn-light rounded-pill px-4 fw-bold">
+                                    <i class="fa-solid fa-desktop me-2"></i> Live Demo
+                                </button>
+                                <a href="https://wanderly-seven-gamma.vercel.app/#assistant" target="_blank" rel="noopener" class="btn btn-teal rounded-pill px-4 fw-bold">
+                                    <i class="fa-solid fa-arrow-up-right-from-square me-2"></i> Launch Website
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h3 class="h4 card-title fw-bold text-white mb-0">Wanderly - AI Tour Booking &amp; Guide</h3>
+                                <span class="badge bg-dark-subtle text-info border border-info-subtle">Live Vercel Site</span>
+                            </div>
+                            <p class="card-text text-secondary mb-3">
+                                A cutting-edge AI-assisted travel platform featuring interactive tour package discovery, real-time booking workflows, smart destination insights, and an embedded <strong>AI Travel Assistant</strong> for personalized itinerary recommendations and travel guidance.
+                            </p>
+                            
+                            <div class="mt-auto pt-3 border-top border-secondary border-opacity-25 d-flex align-items-center justify-content-between flex-wrap gap-2">
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <span class="badge bg-dark text-secondary">AI Assistant</span>
+                                    <span class="badge bg-dark text-secondary">Tour Package Booking</span>
+                                    <span class="badge bg-dark text-secondary">Web UX</span>
+                                </div>
+                                
+                                <div class="d-flex gap-2">
+                                    <button type="button" onclick="openLiveDemoModal('Wanderly - AI Tour Booking & Guide', 'https://wanderly-seven-gamma.vercel.app/#assistant')" class="btn btn-sm btn-demo rounded-pill px-3">
+                                        <i class="fa-solid fa-play me-1"></i> Live Demo
+                                    </button>
+                                    <a href="https://wanderly-seven-gamma.vercel.app/#assistant" target="_blank" rel="noopener" class="btn btn-sm btn-teal rounded-pill px-3">
+                                        <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Visit Website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Nike Air Jordan E-Commerce Showcase -->
+                <div class="col-lg-6">
+                    <div class="card glass-card project-card h-100 overflow-hidden">
+                        <div class="project-img-wrapper position-relative bg-dark d-flex align-items-center justify-content-center p-4">
+                            <div class="project-placeholder-visual text-center p-4">
+                                <i class="fa-solid fa-shoe-prints fa-4x text-info mb-3"></i>
+                                <h4 class="text-white fw-bold">Nike Air Jordan Store</h4>
+                                <span class="badge bg-info-subtle text-info border border-info-subtle">E-Commerce Web Portal</span>
+                            </div>
+                            <div class="project-overlay d-flex align-items-center justify-content-center gap-2 flex-wrap p-3">
+                                <button type="button" onclick="openLiveDemoModal('Nike Air Jordan E-Commerce', 'https://aether-ochre-one.vercel.app/#gallery')" class="btn btn-light rounded-pill px-4 fw-bold">
+                                    <i class="fa-solid fa-desktop me-2"></i> Live Demo
+                                </button>
+                                <a href="https://aether-ochre-one.vercel.app/#gallery" target="_blank" rel="noopener" class="btn btn-teal rounded-pill px-4 fw-bold">
+                                    <i class="fa-solid fa-arrow-up-right-from-square me-2"></i> Launch Store Website
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h3 class="h4 card-title fw-bold text-white mb-0">Nike Air Jordan E-Commerce</h3>
+                                <span class="badge bg-dark-subtle text-info border border-info-subtle">Live Vercel Site</span>
+                            </div>
+                            <p class="card-text text-secondary mb-3">
+                                A high-performance e-commerce web application dedicated to <strong>Nike Air Jordan footwear</strong>. Built with responsive product grids, dynamic shoe catalog filters, shopping cart user experience, and seamless checkout interaction.
+                            </p>
+                            
+                            <div class="mt-auto pt-3 border-top border-secondary border-opacity-25 d-flex align-items-center justify-content-between flex-wrap gap-2">
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <span class="badge bg-dark text-secondary">HTML5 / Web</span>
+                                    <span class="badge bg-dark text-secondary">E-Commerce UI</span>
+                                    <span class="badge bg-dark text-secondary">Nike Catalog</span>
+                                </div>
+                                
+                                <div class="d-flex gap-2">
+                                    <button type="button" onclick="openLiveDemoModal('Nike Air Jordan E-Commerce', 'https://aether-ochre-one.vercel.app/#gallery')" class="btn btn-sm btn-demo rounded-pill px-3">
+                                        <i class="fa-solid fa-play me-1"></i> Live Demo
+                                    </button>
+                                    <a href="https://aether-ochre-one.vercel.app/#gallery" target="_blank" rel="noopener" class="btn btn-sm btn-teal rounded-pill px-3">
+                                        <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Visit Store Website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Food Ordering System (Java Project) -->
+                <div class="col-lg-6">
+                    <div class="card glass-card project-card h-100 overflow-hidden">
+                        <div class="project-img-wrapper position-relative bg-dark d-flex align-items-center justify-content-center p-4">
+                            <div class="project-placeholder-visual text-center p-4">
+                                <i class="fa-brands fa-java fa-4x text-info mb-3"></i>
+                                <h4 class="text-white fw-bold">Food Ordering System</h4>
+                                <span class="badge bg-info-subtle text-info border border-info-subtle">Java Project &amp; Ordering Portal</span>
+                            </div>
+                            <div class="project-overlay d-flex align-items-center justify-content-center gap-2 flex-wrap p-3">
+                                <button type="button" onclick="openLiveDemoModal('Online Food Ordering System (Java)', 'https://foodordering-rho.vercel.app/')" class="btn btn-light rounded-pill px-4 fw-bold">
+                                    <i class="fa-solid fa-desktop me-2"></i> Live Demo
+                                </button>
+                                <a href="https://foodordering-rho.vercel.app/" target="_blank" rel="noopener" class="btn btn-teal rounded-pill px-4 fw-bold">
+                                    <i class="fa-solid fa-arrow-up-right-from-square me-2"></i> Launch Food Ordering Website
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h3 class="h4 card-title fw-bold text-white mb-0">Online Food Ordering System (Java)</h3>
+                                <span class="badge bg-dark-subtle text-info border border-info-subtle">Java Project</span>
+                            </div>
+                            <p class="card-text text-secondary mb-3">
+                                A comprehensive <strong>Java-based food ordering project</strong> designed with object-oriented programming (OOP) principles. Features interactive restaurant menu browsing, dynamic cart management, order processing workflows, and automated bill generation.
+                            </p>
+                            
+                            <div class="mt-auto pt-3 border-top border-secondary border-opacity-25 d-flex align-items-center justify-content-between flex-wrap gap-2">
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <span class="badge bg-dark text-secondary">Java</span>
+                                    <span class="badge bg-dark text-secondary">OOP Architecture</span>
+                                    <span class="badge bg-dark text-secondary">Food Ordering</span>
+                                </div>
+                                
+                                <div class="d-flex gap-2">
+                                    <button type="button" onclick="openLiveDemoModal('Online Food Ordering System (Java)', 'https://foodordering-rho.vercel.app/')" class="btn btn-sm btn-demo rounded-pill px-3">
+                                        <i class="fa-solid fa-play me-1"></i> Live Demo
+                                    </button>
+                                    <a href="https://foodordering-rho.vercel.app/" target="_blank" rel="noopener" class="btn btn-sm btn-teal rounded-pill px-3">
+                                        <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Visit Website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section (Pre-loaded Certificates, Upload Option Removed) -->
+    <section id="certificates" class="py-5 bg-dark-subtle relative-container">
+        <div class="container py-4">
+            <div class="section-header text-center mb-5">
+                <span class="badge bg-info-subtle text-info rounded-pill px-3 py-2 uppercase mb-2">Qualifications &amp; Achievements</span>
+                <h2 class="display-5 fw-bold text-white">Certifications</h2>
+                <p class="text-secondary col-lg-6 mx-auto">Verified academic and technical certifications earned across programming and engineering programs.</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Cert 1: C++ Course Certificate -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card glass-card cert-card p-4 text-center h-100">
+                        <div class="cert-img-container mb-3" onclick="viewCertPhotoModal('C++ Course Certificate', 'certCpp')">
+                            <img id="previewCertCpp" src="/cert_cpp.svg" class="cert-img-preview" alt="C++ Certificate Photo">
+                        </div>
+                        
+                        <h4 class="h5 text-white fw-bold mb-2">C++ Course Certificate</h4>
+                        <p class="small text-secondary mb-3">Demonstrates comprehensive knowledge of C++ syntax, object-oriented principles (OOP), pointers, memory management, and algorithmic problem-solving.</p>
+                        
+                        <div class="mt-auto pt-3 border-top border-secondary border-opacity-25">
+                            <span class="badge bg-info-subtle text-info border border-info-subtle rounded-pill mb-3">C++ Credential</span>
+                            
+                            <div class="d-grid">
+                                <button type="button" onclick="viewCertPhotoModal('C++ Course Certificate', 'certCpp')" class="btn btn-sm btn-outline-light rounded-pill">
+                                    <i class="fa-solid fa-eye me-1"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 2: DSA with Java Certificate -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card glass-card cert-card p-4 text-center h-100">
+                        <div class="cert-img-container mb-3" onclick="viewCertPhotoModal('DSA with Java Certificate', 'certDSA')">
+                            <img id="previewCertDSA" src="/cert_dsa_java.svg" class="cert-img-preview" alt="DSA with Java Certificate Photo">
+                        </div>
+                        
+                        <h4 class="h5 text-white fw-bold mb-2">DSA with Java Certificate</h4>
+                        <p class="small text-secondary mb-3">Validates advanced Data Structures and Algorithms mastery using Java, covering arrays, linked lists, trees, graphs, sorting algorithms, and dynamic programming.</p>
+                        
+                        <div class="mt-auto pt-3 border-top border-secondary border-opacity-25">
+                            <span class="badge bg-info-subtle text-info border border-info-subtle rounded-pill mb-3">Data Structures &amp; Java</span>
+                            
+                            <div class="d-grid">
+                                <button type="button" onclick="viewCertPhotoModal('DSA with Java Certificate', 'certDSA')" class="btn btn-sm btn-outline-light rounded-pill">
+                                    <i class="fa-solid fa-eye me-1"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 3: Coordination in Hackathon Certificate -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card glass-card cert-card p-4 text-center h-100">
+                        <div class="cert-img-container mb-3" onclick="viewCertPhotoModal('Hackathon Coordination Certificate', 'certHackathon')">
+                            <img id="previewCertHackathon" src="/cert_hackathon.svg" class="cert-img-preview" alt="Hackathon Certificate Photo">
+                        </div>
+                        
+                        <h4 class="h5 text-white fw-bold mb-2">Hackathon Coordination Certificate</h4>
+                        <p class="small text-secondary mb-3">Earned for demonstrating exceptional leadership, technical event management, teamwork, and organizational skills while coordinating a competitive hackathon.</p>
+                        
+                        <div class="mt-auto pt-3 border-top border-secondary border-opacity-25">
+                            <span class="badge bg-info-subtle text-info border border-info-subtle rounded-pill mb-3">Leadership &amp; Event</span>
+                            
+                            <div class="d-grid">
+                                <button type="button" onclick="viewCertPhotoModal('Hackathon Coordination Certificate', 'certHackathon')" class="btn btn-sm btn-outline-light rounded-pill">
+                                    <i class="fa-solid fa-eye me-1"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cert 4: AI Course Certificate -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card glass-card cert-card p-4 text-center h-100">
+                        <div class="cert-img-container mb-3" onclick="viewCertPhotoModal('AI Course Certificate', 'certAI')">
+                            <img id="previewCertAI" src="/cert_ai.svg" class="cert-img-preview" alt="AI Certificate Photo">
+                        </div>
+                        
+                        <h4 class="h5 text-white fw-bold mb-2">AI Course Certificate</h4>
+                        <p class="small text-secondary mb-3">Validates foundational expertise in Artificial Intelligence, Machine Learning concepts, neural networks, data modeling, and smart algorithm applications.</p>
+                        
+                        <div class="mt-auto pt-3 border-top border-secondary border-opacity-25">
+                            <span class="badge bg-info-subtle text-info border border-info-subtle rounded-pill mb-3">Artificial Intelligence</span>
+                            
+                            <div class="d-grid">
+                                <button type="button" onclick="viewCertPhotoModal('AI Course Certificate', 'certAI')" class="btn btn-sm btn-outline-light rounded-pill">
+                                    <i class="fa-solid fa-eye me-1"></i> View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Socials Section -->
+    <section id="contact" class="py-5 relative-container">
+        <div class="container py-4">
+            <div class="section-header text-center mb-5">
+                <span class="badge bg-info-subtle text-info rounded-pill px-3 py-2 uppercase mb-2">Communication</span>
+                <h2 class="display-5 fw-bold text-white">Get In Touch</h2>
+                <p class="text-secondary col-lg-6 mx-auto">Feel free to reach out for academic collaborations, project inquiries, or networking.</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <div class="card glass-card h-100 p-4">
+                        <h3 class="h4 text-white fw-bold mb-4">Contact Details</h3>
+                        
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="icon-box bg-info-subtle text-info rounded-3 p-3 me-3">
+                                <i class="fa-solid fa-envelope fa-xl"></i>
+                            </div>
+                            <div>
+                                <span class="text-secondary small d-block">Official Email</span>
+                                <a href="mailto:rishitmayatra.24.cse@iite.indusuni.ac.in" class="text-white fw-medium text-decoration-none word-break">rishitmayatra.24.cse@iite.indusuni.ac.in</a>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="icon-box bg-info-subtle text-info rounded-3 p-3 me-3">
+                                <i class="fa-solid fa-building-columns fa-xl"></i>
+                            </div>
+                            <div>
+                                <span class="text-secondary small d-block">University</span>
+                                <strong class="text-white">Indus University (IITE - CSE)</strong>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="icon-box bg-info-subtle text-info rounded-3 p-3 me-3">
+                                <i class="fa-solid fa-user-graduate fa-xl"></i>
+                            </div>
+                            <div>
+                                <span class="text-secondary small d-block">Branch &amp; Progress</span>
+                                <strong class="text-white">B.Tech Computer Science (5th Sem)</strong>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-auto pt-3 border-top border-secondary border-opacity-25">
+                            <h5 class="h6 text-white mb-3">Social &amp; Professional Networks</h5>
+                            <div class="d-flex flex-column gap-2">
+                                <!-- Active LinkedIn Link -->
+                                <div class="d-flex align-items-center justify-content-between p-3 bg-dark rounded-3 border border-secondary border-opacity-25">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="fa-brands fa-linkedin fa-lg text-info"></i>
+                                        <span class="text-white fw-medium">LinkedIn</span>
+                                    </div>
+                                    <a href="https://www.linkedin.com/in/rishit-mayatra-40a9a2441" target="_blank" rel="noopener" class="btn btn-sm btn-teal rounded-pill">
+                                        Visit LinkedIn <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i>
+                                    </a>
+                                </div>
+                                
+                                <!-- GitHub Link -->
+                                <div class="d-flex align-items-center justify-content-between p-3 bg-dark rounded-3 border border-secondary border-opacity-25">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <i class="fa-brands fa-github fa-lg text-light"></i>
+                                        <span class="text-white fw-medium">GitHub</span>
+                                    </div>
+                                    <a id="linkGithub" href="https://github.com/rishitmayatra" target="_blank" rel="noopener" class="btn btn-sm btn-outline-info rounded-pill">
+                                        Visit GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Interactive Message Form -->
+                <div class="col-lg-7">
+                    <div class="card glass-card h-100 p-4">
+                        <h3 class="h4 text-white fw-bold mb-4">Send a Direct Message</h3>
+                        <div id="contactStatusMsg" class="alert alert-info d-none mb-3" role="alert"></div>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="formName" class="form-label text-secondary small">Your Name</label>
+                                    <input type="text" class="form-control bg-dark border-secondary text-white" id="formName" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="formEmail" class="form-label text-secondary small">Your Email</label>
+                                    <input type="email" class="form-control bg-dark border-secondary text-white" id="formEmail" placeholder="name@example.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="formSubject" class="form-label text-secondary small">Subject</label>
+                                    <input type="text" class="form-control bg-dark border-secondary text-white" id="formSubject" placeholder="Inquiry / Project Collaboration" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="formMessage" class="form-label text-secondary small">Message</label>
+                                    <textarea class="form-control bg-dark border-secondary text-white" id="formMessage" rows="4" placeholder="Hello Rishit, I would like to talk about..." required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-gradient w-100 py-3 rounded-pill">
+                                        <i class="fa-solid fa-paper-plane me-2"></i> Send Message to Rishit
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark border-top border-secondary border-opacity-25">
+        <div class="container text-center">
+            <p class="text-secondary small mb-1">
+                &copy; <span id="currentYear"></span> <strong>Rishit Mayatra</strong> • Indus University B.Tech CSE (5th Semester)
+            </p>
+            <p class="text-muted text-opacity-50 small mb-0">Built with HTML5, Bootstrap 5.3 &amp; JavaScript.</p>
+        </div>
+    </footer>
+
+    <!-- Full Photo Viewer Modal -->
+    <div class="modal fade" id="certPhotoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content glass-modal text-white">
+                <div class="modal-header border-secondary border-opacity-25">
+                    <h5 class="modal-title fw-bold" id="certPhotoModalTitle"><i class="fa-solid fa-image me-2 text-info"></i> Certificate Photo View</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center p-4">
+                    <div id="certPhotoDisplayContainer" class="p-2 bg-dark rounded-3 border border-secondary border-opacity-25">
+                        <img id="certFullPhotoImg" class="img-fluid rounded-3" style="max-height: 500px; display: block; margin: 0 auto;" alt="Certificate Photo">
+                    </div>
+                </div>
+                <div class="modal-footer border-secondary border-opacity-25 justify-content-end">
+                    <button type="button" class="btn btn-secondary rounded-pill btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Live Demo Modal for Projects -->
+    <div class="modal fade" id="projectDemoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content glass-modal text-white">
+                <div class="modal-header border-secondary border-opacity-25 d-flex align-items-center justify-content-between">
+                    <h5 class="modal-title fw-bold mb-0" id="projectDemoModalTitle">
+                        <i class="fa-solid fa-desktop me-2 text-info"></i> Live Demo Preview
+                    </h5>
+                    <div class="d-flex align-items-center gap-2">
+                        <button type="button" class="btn btn-sm btn-outline-light rounded-pill px-3" onclick="setDemoViewport('desktop')" title="Desktop View">
+                            <i class="fa-solid fa-laptop me-1"></i> Desktop
+                        </button>
+                        <button type="button" class="btn btn-sm btn-outline-light rounded-pill px-3" onclick="setDemoViewport('mobile')" title="Mobile View">
+                            <i class="fa-solid fa-mobile-screen me-1"></i> Mobile
+                        </button>
+                        <button type="button" class="btn-close btn-close-white ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="modal-body p-3">
+                    <div id="projectDemoWrapper" class="demo-iframe-wrapper">
+                        <iframe id="projectDemoIframe" class="demo-iframe" src="about:blank" title="Live Project Demo" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer border-secondary border-opacity-25 justify-content-between">
+                    <span class="small text-secondary"><i class="fa-solid fa-circle-info me-1 text-info"></i> Interactive live preview of the deployed application.</span>
+                    <div class="d-flex gap-2">
+                        <a id="projectDemoExternalLink" href="#" target="_blank" rel="noopener" class="btn btn-teal rounded-pill btn-sm px-3">
+                            <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Open Full Website
+                        </a>
+                        <button type="button" class="btn btn-secondary rounded-pill btn-sm px-3" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5.3 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/script.js"></script>
+</body>
+</html>
